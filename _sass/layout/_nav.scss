@@ -1,0 +1,170 @@
+.menu-trigger {
+  position: relative;
+  top: 2em;
+  left: 2em;
+  z-index: 2000;
+  width: 155px;
+  cursor: pointer;
+  float: left;
+  padding: 10px 35px 16px 0px;
+  cursor: pointer;
+  top: 39px;
+  left: 33px;
+  transition-duration: 0.5s;
+}
+.menu-trigger:after {
+  content: 'MENÜ';
+  display: inline-block;
+  width: 120px;
+  height: 25px;
+  float: left;
+  line-height: 25px;
+  text-align: left;
+  padding-left: 20px;
+  font-size: .9em;
+  font-weight: 700;
+  color: $brand-primary;
+  top: -10px;
+  left: 30px;
+  position: relative;
+  -moz-transition: all 400ms ease;
+  -o-transition: all 400ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
+}
+.menu-trigger .icon-left {
+  transition-duration: 0.5s;
+  position: absolute;
+  height: 4px;
+  width: 15px;
+  background-color: $body-color;
+}
+.menu-trigger .icon-left:before {
+  transition-duration: 0.5s;
+  position: absolute;
+  width: 15px;
+  height: 4px;
+  background-color: $body-color;
+  content: "";
+  top: -10px;
+}
+.menu-trigger .icon-left:after {
+  transition-duration: 0.5s;
+  position: absolute;
+  width: 15px;
+  height: 4px;
+  background-color: $body-color;
+  content: "";
+  top: 10px;
+}
+.menu-trigger .icon-left:hover {
+  cursor: pointer;
+}
+.menu-trigger .icon-right {
+  transition-duration: 0.5s;
+  position: absolute;
+  height: 4px;
+  width: 15px;
+  background-color: $body-color;
+  left: 15px;
+}
+.menu-trigger .icon-right:before {
+  transition-duration: 0.5s;
+  position: absolute;
+  width: 15px;
+  height: 4px;
+  background-color: $body-color;
+  content: "";
+  top: -10px;
+}
+.menu-trigger .icon-right:after {
+  transition-duration: 0.5s;
+  position: absolute;
+  width: 15px;
+  height: 4px;
+  background-color: $body-color;
+  content: "";
+  top: 10px;
+}
+.menu-trigger .icon-right:hover {
+  cursor: pointer;
+}
+.menu-trigger.active .icon-left {
+  transition-duration: 0.5s;
+  background: transparent;
+}
+.menu-trigger.active .icon-left:before {
+  transform: rotateZ(45deg) scaleX(1.4) translate(2px, 2px);
+}
+.menu-trigger.active .icon-left:after {
+  transform: rotateZ(-45deg) scaleX(1.4) translate(2px, -2px);
+}
+.menu-trigger.active .icon-right {
+  transition-duration: 0.5s;
+  background: transparent;
+}
+.menu-trigger.active .icon-right:before {
+  transform: rotateZ(-45deg) scaleX(1.4) translate(-2px, 2px);
+}
+.menu-trigger.active .icon-right:after {
+  transform: rotateZ(45deg) scaleX(1.4) translate(-2px, -2px);
+}
+.menu-trigger.active:after {
+  content: 'SCHLIESSEN';
+}
+@media handheld, only screen and (min-device-pixel-ratio: 2), only screen and (max-width: 480px) and (min-width: 320px) {
+  .menu-trigger.active:after {
+    content: '';
+    width: 40px;
+  }
+  .menu-trigger {
+    width: 40px;
+  }
+}
+@media handheld, only screen and (min-device-pixel-ratio: 2), only screen and (max-width: 480px) and (min-width: 320px) {
+  .menu-trigger {
+    position: relative;
+    top: 2em;
+    left: 1em;
+  }
+  .menu-trigger:after {
+    content: '';
+  }
+}
+
+#mainmenu {
+  position: absolute;
+  background: #fff;
+  width: 100%;
+  padding: 27px 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease-out;
+
+  &.active {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  ul {
+    text-align: center;
+    text-transform: uppercase;
+
+    li {
+      color: $body-color;
+      a, span {
+        color: $body-color;
+        font-size: 24px;
+        line-height: 34px;
+        font-weight: 700;
+      }
+      &.active, &:hover {
+        a, span {
+          color: $brand-primary;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
+}

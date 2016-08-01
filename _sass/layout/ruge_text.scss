@@ -1,0 +1,55 @@
+.ruge_text {
+  .scrolldown {
+    position: absolute;
+    width: 57px;
+    height: 57px;
+    bottom: 10px;
+    left: 50%;
+    margin-left: -28px;
+    z-index: 200;
+  }
+  text-align: center;
+  .main_image {
+    position: relative;
+    width: 100%;
+    img {
+      display: inline-block;
+      width: 100%;
+      vertical-align: middle;
+    }
+    .text {
+      position: absolute;
+      top: 100px;
+      left: 0;
+      display: inline-block;
+      background-color: $brand-primary;
+      color: #fff;
+      text-align: left;
+
+      padding-left: 40px;
+      padding-right: 10px;
+
+      h2 {
+        font-size: 60px;
+        line-height: 65px;
+        text-transform: uppercase;
+        font-weight: 700;
+        letter-spacing: .1em;
+      }
+    }
+  }
+  h3 {
+    text-transform: uppercase;
+    margin: 55px 0 15px;
+    color: $brand-primary;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 43px;
+  }
+  .container {
+    margin-bottom: 70px;
+    a {
+      text-decoration: underline;
+    }
+  }
+}

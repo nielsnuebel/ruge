@@ -1,0 +1,17 @@
+$body-bg: #fff;
+$body-color: #818b91;
+$brand-primary: #0a396f;
+$ruge-hellblau: #e4e9ef;
+$ruge-footer-bg: #e6e8e9;
+$ruge-vita-color: #53300c;
+$font-size-root: 20px;
+$font-family-sans-serif:     "Open Sans Condensed", Helvetica, Arial, sans-serif;
+$fa-font-path:        "../assets/fonts";
+
+@import "bootstrap/variables";
+@import "font-awesome/variables";
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700);
+
+body {
+  font-weight: 300;
+}

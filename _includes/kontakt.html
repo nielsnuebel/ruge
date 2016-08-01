@@ -1,0 +1,22 @@
+<section id="kontakt" class="ruge_text">
+    <div id="map"></div>
+    <script>
+        function initMap() {
+
+            var mapCanvas = document.getElementById('map');
+            var mapOptions = {
+                center: new google.maps.LatLng(53.326325,9.879800),
+                zoom: 17,
+                scrollwheel: 0,
+                mapTypeId: google.maps.MapTypeId.ROADMAP
+            }
+            var map = new google.maps.Map(mapCanvas, mapOptions);
+            var point = new google.maps.LatLng(53.326325,9.879800);
+            var marker = new google.maps.Marker({
+                position: point,
+                map: map
+            });
+        }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDkZC8z1pMaOM3i8334Yir-PvBFYFx98Xw&callback=initMap" type="text/javascript"></script>
+</section>

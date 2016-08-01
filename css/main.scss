@@ -1,0 +1,13 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+@import "variables";
+@import "bootstrap/bootstrap";
+@import "font-awesome/font-awesome";
+@import "layout/header";
+@import "layout/nav";
+@import "layout/ruge_text";
+@import "layout/kontakt";
+@import "layout/footer";

@@ -1,0 +1,8 @@
+            <header class="site-header">
+                <div class="menu-trigger">
+                    <div class="icon-left"></div>
+                    <div class="icon-right"></div>
+                </div>
+                <div id="logo">{% assign links = site.nav | where: "name", "Home" %}{% for link in links %}<a href="{{ link.link }}"><img src="{{ site.baseurl }}assets/images/raum_fuer_ihr_recht.png" alt="Raum für mehr Recht" class="img-fluid"/></a>{% endfor %}</div>
+{% include nav.html %}
+            </header>

@@ -1,0 +1,38 @@
+body {
+  padding-top: 167px;
+  @media handheld, only screen and (min-device-pixel-ratio: 2), only screen and (max-width: 540px) and (min-width: 320px) {
+    padding-top: 118px;
+  }
+  @media handheld, only screen and (min-device-pixel-ratio: 2), only screen and (max-width: 420px) and (min-width: 320px) {
+    padding-top: 83px;
+  }
+}
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: white;
+  z-index: 999;
+  height: 167px;
+  &.shadow {
+    border-bottom: 0px solid #FFF;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.7);
+  }
+  @media handheld, only screen and (min-device-pixel-ratio: 2), only screen and (max-width: 540px) and (min-width: 320px) {
+    height: 118px;
+  }
+  @media handheld, only screen and (min-device-pixel-ratio: 2), only screen and (max-width: 420px) and (min-width: 320px) {
+    height: 83px;
+  }
+  #logo {
+    margin: 0 auto;
+    padding: 15px 0;
+    max-width: 218px;
+    @media handheld, only screen and (min-device-pixel-ratio: 2), only screen and (max-width: 540px) and (min-width: 320px) {
+      max-width: 100px;
+    }
+    @media handheld, only screen and (min-device-pixel-ratio: 2), only screen and (max-width: 420px) and (min-width: 320px) {
+      max-width: 60px;
+    }
+  }
+}

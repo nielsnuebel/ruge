@@ -1,0 +1,20 @@
+{
+  "name": "RA Ruge",
+  "version": "0.0.0",
+  "authors": [
+    "Niels Nübel <niels@niels-nuebel.de>"
+  ],
+  "description": "Jekyll Theme setup",
+  "license": "MIT",
+  "homepage": "https://github.com/nielsnuebel/anwalt",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "bootstrap": "v4.0.0-alpha.2",
+    "font-awesome": "fontawesome#^4.6.3"
+  }
+}
