@@ -17,7 +17,8 @@ gulp.task('build', shell.task(['jekyll build --watch']));
 // Task for serving blog with Browsersync
 gulp.task('serve', function () {
     browserSync.init({
-        server: {baseDir: '_site/'}
+        server: {baseDir: '_site/'},
+        open: false
     });
     gulp.watch('_site/**/*.*').on('change', browserSync.reload);
 });

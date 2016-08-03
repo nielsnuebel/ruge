@@ -22,23 +22,38 @@
       top: 100px;
       left: 0;
       display: inline-block;
-      background-color: $brand-primary;
-      color: #fff;
       text-align: left;
+      white-space: pre-line;
 
-      padding-left: 40px;
-      padding-right: 10px;
+
+
+      h2,h3,h4,p {
+        background-color: $brand-primary;
+        color: #fff;
+        padding: 0;
+        margin: 0 0 2px;
+        line-height: normal;
+        display: inline-block;
+        padding-left: 40px;
+        padding-right: 10px;
+        font-weight: 700;
+        letter-spacing: .1em;
+
+      }
 
       h2 {
         font-size: 60px;
-        line-height: 65px;
+        line-height: 80px;
         text-transform: uppercase;
-        font-weight: 700;
-        letter-spacing: .1em;
+      }
+
+      h3 {
+        font-size: 34px;
+        line-height: 50px;
       }
     }
   }
-  h3 {
+  h3.headline {
     text-transform: uppercase;
     margin: 55px 0 15px;
     color: $brand-primary;
