@@ -47,5 +47,34 @@ nav:
 - name: Kontakt
   link: "#kontakt"
 
+leistungen:
 
+- title: Inkasso
+  text: "Forderungsbeitreibung, insbesondere Mieten und Abrechnungssalden<br>Mietsicherheiten, z. B. Barkautionen<br>Verfolgung von Mietrückständen und schleppender Zahlungsweise"
 
+- title: Beendigung von Mietverhältnissen
+  text: "wegen erheblicher Mietrückstände (Kündigung, Räumungsklage und Räumungsvollstreckung)<br>wegen Eigenbedarfs oder eines anderen berechtigten Interesses<br>durch Mietaufhebungsvertrag"
+
+- title: Mieterhöhungen
+  text: "Ermittlung der Grundlagen, Art der Erhöhung festlegen<br>Zustimmungsverlangen erstellen und ggf. gerichtlich durchsetzen"
+
+- title: Betriebskosten und Betriebskostenabrechnungen
+  text: "Erstellung und Durchführung von Abrechnungen<br>Prüfung und ggf. Anpassung von Abrechnungen<br>Durchsetzung von erhöhten Vorauszahlungen nach Abrechnung"
+
+- title: Mietsicherheiten
+  text: "Anlage<br>Verwertung"
+
+- title: Durchsetzung weiterer Vermieterrechte, z. B.
+  text: "Abwehr von unberechtigten Mietminderungen<br>Durchsetzung der Hausordnung<br>Verhinderung und Beendigung vertragswidrigen Gebrauches insbesondere durch Abmahnung vertragswidrigen Verhaltens<br>Besichtigungsrecht des Vermieters<br>Durchsetzung von Ansprüchen des Vermieters im Rahmen der Beendigung eines Mietverhältnis, z. B. Schönheitsreparaturen<br>Wohnungsübergabe und Wohnungsrücknahme<br>bei Insolvenz des Mieters"
+
+- title: Schulung Ihrer Mitarbeiterinnen und Mitarbeiter (Update „Mietrecht aktuell“)
+  text: ""
+
+- title: Miet- und Pachtverträge
+  text: "prüfen und ggf. optimieren<br>gestalten, z. B.<br>- Indexklausel<br>- Mietsicherheit<br>- Schönheitsreparaturen<br>- Betriebskosten"
+
+- title: Wohnung und Gewerbe
+  text: "Dieses Leistungsspektrum gilt grundsätzlich gleichermaßen für Wohnungsmietverhältnisse wie auch für gewerblich genutzte Objekte.<br>Sonderimmobilien"
+
+- title: Beratung – Vertretung – Gestaltung
+  text: "<strong>Wir bieten kompetente Beratung, Vertretung und Gestaltung.</strong><br>Beratung bedeutet, dass ich Sie über Ihre Rechte informiere.<br>Vertretung bedeutet, dass ich Ihre Rechte konsequent durchsetze.<br>Gestaltung bedeutet, dass ich gemeinsam mit Ihnen die für Ihre Anforderungen passende Gestaltungsmöglichkeit erarbeite und verwirkliche."

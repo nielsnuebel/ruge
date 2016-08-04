@@ -65,7 +65,19 @@
             }
         });
 
+        var owl = $("#owl-demo").owlCarousel({
 
+            navigation:true,
+            navigationText: [
+                "<i class='fa fa-chevron-left'></i>",
+                "<i class='fa fa-chevron-right'></i>"
+            ],
+            slideSpeed : 300,
+            paginationSpeed : 400,
+            singleItem:true,
+            autoPlay: false,
+            pagination: false
+        });
     });
 })(this.jQuery);
 

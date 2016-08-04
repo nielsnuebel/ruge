@@ -1,15 +1,20 @@
 <section id="leistungen" class="ruge_text">
-    <div class="main_image">
-        <img src="{{ "assets/images/leistungen.png" | prepend: site.baseurl }}" alt="">
-        <div class="text">
-            <h2>Vita</h2>
+
+    <div class="leistungen">
+        <div class="leistungen-wrapper">
+            <ul id="owl-demo" class="owl-carousel owl-theme">
+                {% assign counter = 0 %}
+                {% for item in site.leistungen %}<li class="item"><h2>{{ item.title }}</h2><div class="leistung-text">{{ item.text }}</div></li>
+                {% assign counter = counter | plus: 1 %}
+                {% endfor %}
+            </ul>
         </div>
-    </div>
+    </div><!-- .quotes -->
     <div class="container">
         <div class="row">
             <div class="col-xs-12">
-                <h3>Vita</h3>
-                <p>Kommen Sie rein, allein oder mit Kollegen oder Freunden, und sehen und schnuppern Sie, was Herr Nordmann Gutes gekocht hat. Unsere herzhaften Mittagsgerichte werden jeden Tag frisch für Sie zubereitet. Aus guten Zutaten köchelt und brät in der Küche von Herrn Nordmann feine Hausmannskost. Sie wird sorgfältig abgeschmeckt und kommt auf kürzestem Weg zu uns in den Brotladen. Täglich wechselnd haben Sie die Wahl zwischen Suppe, Eintöpfen, saisonalen Gerichten oder Klassikern. Lassen Sie sich gemütlich an unseren Holztischen nieder oder nehmen Sie Ihren Lunch heiß und gut verpackt mit, wenn’s doch mal schnell gehen muss.</p></div>
+                <h3 class="headline">Leistungskatalog</h3>
+                <p>Speziell abgestimmt auf die Anforderungen von Hausverwaltungen und vermietenden Grundeigentümern kann ich Ihnen folgendes Spek-trum von Leistungen anbieten:<br>Inkasso, Beendigung von Mietverhältnissen, Mieterhöhungen, Betriebskosten und Betriebskostenabrechnungen, Mietsicherheiten, Durchsetzung weiterer Vermieterrechte, Schulung Ihrer Mitarbeiterinnen und Mitarbeiter (Update „Miet-recht aktuell“), Miet- und Pachtverträge, Wohnung und Gewerbe, Beratung – Vertretung – Gestaltung Wir bieten kompetente Beratung, Vertretung und Gestaltung.</p></div>
             </div>
         </div>
     </div>

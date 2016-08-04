@@ -20,37 +20,22 @@
 	}
 	div{
 		position: absolute;
-		width: 50px;
-		height: 74px;
-		top: 50%;
-		margin-top: -37px;
+		width: 36px;
+		height: 50px;
+		top: 70%;
+		font-size: 50px;
+		color: #4b719c;
+		margin-top: -25px;
 		background-image:    url(../assets/images/pfeil.png);
 		background-size:     cover;
 		background-repeat:   no-repeat;
 		background-position: center center;
 
 		&.owl-prev {
-			transform: rotateZ(-180deg);
-			left: -90px;
+			left: 40px;
 		}
 		&.owl-next {
-			right: -90px;
-		}
-
-
-		@media screen and (max-width: 674px){
-			position: relative;
-			width: 28px;
-			height: 40px;
-			margin-top: 0px;
-			display: inline-block;
-			&.owl-prev {
-				left: 0px;
-			}
-			&.owl-next {
-				right: 0px;
-				float: right;
-			}
+			right: 40px;
 		}
 	}
 
