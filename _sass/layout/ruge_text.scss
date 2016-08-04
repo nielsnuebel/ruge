@@ -18,10 +18,17 @@
       vertical-align: middle;
     }
     .text {
+      @media  only screen and (min-width: 710px) {
       position: absolute;
-      top: 100px;
+      top: 10px;
       left: 0;
-      display: inline-block;
+      }
+
+      @media  only screen and (min-width: 1068px) {
+        position: absolute;
+        top: 100px;
+        left: 0;
+      }
       text-align: left;
       white-space: pre-line;
 
