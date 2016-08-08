@@ -30,7 +30,7 @@ repository: nielsnuebel/ruge
 nav:
 
 - name: Home
-  link: "/"
+  link: "#home"
 
 - name: VITA
   link: "#vita"

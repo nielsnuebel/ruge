@@ -1,6 +1,6 @@
-                <nav id="mainmenu">
-                    <ul class="level_1 nav" id="main-nav">
-                        {% for item in site.nav %}<li><a class="scrollto" href="{{ item.link }}">{{ item.name }}</a></li>
-                        {% endfor %}
-                    </ul>
+                <nav id="mainmenu" class="navbar" data-spy="affix">
+                        <ul class="level_1 nav navbar-nav" id="main-nav" data-spy="affix" data-offset="167">
+                            {% for item in site.nav %}<li><a class="scrollto" href="{{ item.link }}">{{ item.name }}</a></li>
+                            {% endfor %}
+                        </ul>
                 </nav>
