@@ -12,7 +12,7 @@ description: > # this means to ignore newlines until "baseurl:"
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 baseurl: ""
-url: "http://ruge.niels-nuebel.de"
+url: "http://raum-fuer-ihr-recht.de"
 googleanalyticss:  UA-XXXXX-1
 
 # Build settings
@@ -30,22 +30,33 @@ repository: nielsnuebel/ruge
 nav:
 
 - name: Home
-  link: "#home"
+  link: "/#home"
+  class: "scrollto"
 
 - name: VITA
-  link: "#vita"
+  link: "/#vita"
+  class: "scrollto"
 
 - name: Kanzleischwerpunkt
-  link: "#schwerpunkte"
+  link: "/#schwerpunkte"
+  class: "scrollto"
 
 - name: Leistungskatalog
-  link: "#leistungen"
+  link: "/#leistungen"
+  class: "scrollto"
 
 - name: Veröffentlichungen
-  link: "#veroeffentlichungen"
+  link: "/#veroeffentlichungen"
+  class: "scrollto"
 
 - name: Kontakt
-  link: "#kontakt"
+  link: "/#kontakt"
+  class: "scrollto"
+
+- name: Impressum
+  link: "/impressum.html"
+  class: "external"
+
 
 leistungen:
 
