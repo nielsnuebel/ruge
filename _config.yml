@@ -53,10 +53,6 @@ nav:
   link: "/#kontakt"
   class: "scrollto"
 
-- name: Impressum
-  link: "/impressum.html"
-  class: "external"
-
 
 leistungen:
 
