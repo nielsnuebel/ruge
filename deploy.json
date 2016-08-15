@@ -1,0 +1,15 @@
+{
+  "errorMail": "error@nn-medienagentur.de",
+  "sendInfoMails": true,
+  "infoMail": "info@nn-medienagentur.de",
+  "infoSubject": "Update RUGE",
+  "Subject": "Raum für Ihr Recht",
+  "git": {
+    "git_path": "/usr/local/bin/git",
+    "repo": "nielsnuebel/ruge",
+    "remote": "origin",
+    "branch": "master",
+    "hookSecret": "anwalt",
+    "checkHookSecret": true
+  }
+}
